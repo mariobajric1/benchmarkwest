@@ -1,0 +1,4 @@
+.carouselImg {
+	max-height: 640px !important;
+	display: flex;
+}

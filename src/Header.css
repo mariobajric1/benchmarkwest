@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	background-color: #6db6ef;
+}
+
+/* 6DB6EF */
+/* ff9c43 */
+
+.header__logo {
+	object-fit: contain;
+	height: 65px;
+	margin-left: 120px;
+}
+
+.header__links {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	max-width: fit-content;
+}
+
+.header__links > a {
+	display: flex;
+	text-decoration: none;
+	padding: 18px;
+}
+
+.header__links > a > h1 {
+	color: white;
+	font-size: 24px;
+	padding-right: 4px;
+}
